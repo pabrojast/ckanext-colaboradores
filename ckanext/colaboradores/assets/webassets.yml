@@ -1,0 +1,14 @@
+# colaboradores-js:
+#   filter: rjsmin
+#   output: ckanext-colaboradores/%(version)s-colaboradores.js
+#   contents:
+#     - js/colaboradores.js
+#   extra:
+#     preload:
+#       - base/main
+
+# colaboradores-css:
+#   filter: cssrewrite
+#   output: ckanext-colaboradores/%(version)s-colaboradores.css
+#   contents:
+#     - css/colaboradores.css
